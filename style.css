@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+h3{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+/* i{
+    width: 500%;
+} */
+img{
+
+    width: 100;
+    transition: 1s;
+}
+
+.first{
+    margin-right: 5%;
+}
+.third{
+   
+    margin-left: 5%;
+}
+
+.first:hover,.second:hover,.third:hover{
+    cursor: pointer;
+
+}
+
+img:hover{
+    transform: translateY(-45px);
+}
